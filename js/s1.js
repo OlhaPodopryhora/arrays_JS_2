@@ -8,7 +8,7 @@
 		
 		var newArray = [];
 			for(var i=0; i<array.length; ++i){
-				newArray.push(square(array[i]))
+				newArray.push(fn(array[i]))
 			}		
 		return newArray;
 	}
